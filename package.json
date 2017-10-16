@@ -1,0 +1,19 @@
+{
+  "name": "4-dom-pig-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quirogas/DOM-pig-game.git"
+  },
+  "author": "unclear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quirogas/DOM-pig-game/issues"
+  },
+  "homepage": "https://github.com/quirogas/DOM-pig-game#readme"
+}
