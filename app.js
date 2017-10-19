@@ -38,7 +38,7 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     if (dice !== 1) {
       roundScore += dice;
       document.querySelector(
-        "#current-" + activePlayer
+        "#current-" + activePlayer,
       ).textContent = roundScore;
     } else if ((previousRoll && dice) === 6) {
       document.querySelector("#current-" + activePlayer).textContent = 0;
@@ -94,7 +94,7 @@ function init() {
   roundScore = 0;
   gamePlaying = true;
   previousRoll = null;
-  winningScore = x === 0 ? 1 : 1; // TODO: finish this method.
+  winningScore = x === 0 ? 100 : 100; // TODO: finish this method.
 
   document.querySelector(".dice-0").style.display = "none";
   document.querySelector(".dice-1").style.display = "none";
